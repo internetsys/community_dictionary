@@ -542,7 +542,7 @@ def parser(irrf):
 
                 
 for fn in os.listdir('./webparser/'):
-    with open('./IRR_Data/' + fn, 'r') as f:
+    with open('./webparser/' + fn, 'r') as f:
         parser(f)
 
 with open('semanticdic_webpage.json','w',encoding='utf-8') as f:
